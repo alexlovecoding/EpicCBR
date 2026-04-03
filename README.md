@@ -40,10 +40,20 @@ You can specify the GPU id and dataset using command line arguments. All hyper-p
 
 - Logs, checkpoints, and TensorBoard summaries will be saved in the corresponding directories under `./log/`, `./checkpoints/`, and `./runs/`.
 
+
 ## Citation
 
-If you use this code for research, please cite the original paper.
+If you use this code for your research, please cite the original paper.
 
+```bibtex
+@inproceedings{li2026epiccbr,
+  title={EpicCBR: Item-Relation-Enhanced Dual-Scenario Contrastive Learning for Cold-Start Bundle Recommendation},
+  author={Li, Yihang and Liu, Zhuo and Wei, Wei},
+  booktitle={Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining},
+  pages={377--386},
+  year={2026}
+}
+```
 ---
 
 For any questions or issues, please open an issue in this repository.
